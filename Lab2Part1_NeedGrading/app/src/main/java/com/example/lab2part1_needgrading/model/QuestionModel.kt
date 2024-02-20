@@ -1,9 +1,9 @@
 package com.example.lab2part1_needgrading.model
 
-//QUESTIONS storage/database
 data class QuestionModel(
     val id: Int,
     val questionText: String,
-    val options: List<String>,
-    val correctAnswerIndex: Int
+    // Assuming we keep the options for minimal change, but it will always be ["True", "False"]
+    val options: List<String> = listOf("True", "False"),
+    val correctAnswerIndex: Int // 0 for False, 1 for True
 )

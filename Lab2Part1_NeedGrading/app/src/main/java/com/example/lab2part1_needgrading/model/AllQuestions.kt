@@ -2,24 +2,20 @@ package com.example.lab2part1_needgrading.model
 
 class AllQuestions {
     private val questions = listOf(
-        QuestionModel(1, "What is the main protein ingredient traditionally used in Pho?", listOf("Chicken", "Beef", "Tofu", "Pork"), 1),
-        QuestionModel(2, "Which spice is essential for an authentic Pho broth flavor?", listOf("Cumin", "Coriander Seeds", "Cardamom", "Star Anise"), 3),
-        QuestionModel(3, "What type of noodles are typically used in Pho?", listOf("Udon Noodles", "Rice Noodles", "Egg Noodles", "Soba Noodles"), 1),
-        QuestionModel(4, "How is the broth for Pho typically prepared?", listOf("Boiled rapidly for 30 minutes", "Simmered for several hours", "Served cold", "Microwaved in a bowl"), 1),
-        QuestionModel(5, "What fresh herb is commonly added as a garnish to Pho?", listOf("Basil", "Cilantro", "Dill", "Mint"), 0),
-        QuestionModel(6, "Which of these condiments is commonly served with Pho?", listOf("Ketchup", "Hoisin Sauce", "Mustard", "Mayonnaise"), 1),
-        QuestionModel(7, "What is the traditional way to serve lime with Pho?", listOf("Squeeze into the broth", "Served on the side as wedges", "Mixed into the noodles", "Grated zest on top"), 1),
-        QuestionModel(8, "What type of onion is typically charred and added to Pho broth for flavor?", listOf("Shallots", "Red Onion", "Green Onion", "Yellow Onion"), 3),
-        QuestionModel(9, "What is the name of the spice packet commonly used in Pho that contains cloves, star anise, cinnamon, cardamom, and coriander seeds?", listOf("Curry Powder", "Pho Spice Packet", "Garam Masala", "Bouquet Garni"), 1),
-        QuestionModel(10, "What cut of beef is often used as a topping for Pho, which cooks directly in the hot broth when served?", listOf("Ribeye", "Brisket", "Filet Mignon", "Eye of Round"), 3)
-        // Add more questions here if needed
+        QuestionModel(1, "The main protein ingredient traditionally used in Pho is beef.", listOf("False", "True"), 1),
+        QuestionModel(2, "Cumin is essential for an authentic Pho broth flavor.", listOf("False", "True"), 0),
+        QuestionModel(3, "Rice Noodles are typically used in Pho.", listOf("False", "True"), 1),
+        QuestionModel(4, "The broth for Pho is typically boiled rapidly for 30 minutes.", listOf("False", "True"), 0),
+        QuestionModel(5, "Basil is a common garnish added to Pho.", listOf("False", "True"), 1),
+        QuestionModel(6, "Ketchup is commonly served with Pho.", listOf("False", "True"), 0),
+        QuestionModel(7, "Lime is traditionally served on the side as wedges with Pho.", listOf("False", "True"), 1),
+        QuestionModel(8, "Yellow Onion is typically charred and added to Pho broth for flavor.", listOf("False", "True"), 1),
+        QuestionModel(9, "The spice packet used in Pho contains cloves, star anise, cinnamon, cardamom, and coriander seeds is known as Pho Spice Packet.", listOf("False", "True"), 1),
+        QuestionModel(10, "Ribeye is often used as a topping for Pho, which cooks directly in the hot broth when served.", listOf("False", "True"), 0)
     )
 
     val size: Int
         get() = questions.size
 
     fun getQuestionByIndex(index: Int): QuestionModel? = questions.getOrNull(index)
-
-
-    // Implement more functionality as needed...
 }

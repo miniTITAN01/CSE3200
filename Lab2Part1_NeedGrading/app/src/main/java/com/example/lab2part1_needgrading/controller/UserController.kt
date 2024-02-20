@@ -2,13 +2,17 @@ package com.example.lab2part1_needgrading.controller
 
 import com.example.lab2part1_needgrading.model.UserModel
 
-class UserController(private val userModel: UserModel) {
-    fun setUserName(name: String) {
-        userModel.userName = name
+class UserController(private var userModel: UserModel) {
+    fun setUserName(name: Any) {
+        userModel.userName = name.toString()
     }
 
     fun setUserId(id: String) {
         userModel.userId = id
+    }
+
+    fun updateUser(userName: Any) {
+        setUserName(userName)
     }
 
     val userName: String
