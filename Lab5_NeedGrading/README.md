@@ -5,9 +5,10 @@
 
 Happy coding!
 
-![radio](radioApp.png){: style="max-width:100%;" }
-![userflow](User-Flow.png){: style="max-width:100%;" }
-![app](App_Architecture.png)
+<img src="radioApp.png" alt="radio" style="max-width:100%;" />
+<img src="User-Flow.png" alt="userflow" style="max-width:100%;" />
+<img src="App_Architecture.png" alt="app" style="max-width:100%;" />
+
 
 
 
