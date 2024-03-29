@@ -5,9 +5,9 @@
 
 Happy coding!
 
-![radio](radioApp.png)
-![userflow](User-Flow.pdf)
-![app](App_Architecture.pdf)
+![radio](radioApp.png){: style="max-width:100%;" }
+![userflow](User-Flow.png){: style="max-width:100%;" }
+![app](App_Architecture.png)
 
 
 
