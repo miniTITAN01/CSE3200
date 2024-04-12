@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab 6 - Need Grading</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="radio">Radio</string>
+    <string name="video">Video</string>
+
+</resources>
