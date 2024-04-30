@@ -1,10 +1,16 @@
 <resources>
-    <string name="app_name">k2024_04_21_liveData_volley</string>
+    <string name="app_name">Kat_Karima_LiveData_LiveRadio</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
     <string name="image_button">Show image</string>
     <string name="load_all_images">Load image metadata</string>
+
+    <string name="next_station_description">Next Station</string>
+    <string name="prev_station_description">Prev Station</string>
+    <string name="play_station_description">Play Station</string>
+    <string name="no_wiki_info">No Wiki Info</string>
+
 
 </resources>

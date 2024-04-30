@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="button_default">#6200EE</color>
+    <color name="button_pressed">#3700B3</color>
+    <color name="button_stroke">#FFFFFF</color>
+
+    <color name = "main">#EEA87A</color>
+    <color name = "main2">#E8A96F</color>
+
+    <color name = "radio">#638EE6</color>
 </resources>
